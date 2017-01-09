@@ -9,8 +9,8 @@ block content
     div(class="col-md-4 col-xs-12 col-lg-4" id="sidebar")
         p.
             video and chat goes here
-        video(autoplay id="localVideo")
-        video(autoplay id="remoteVideo")
+        div.video
+            video(autoplay id="remoteVideo")
         button(id="callButton" onclick="createOffer()") Начать
     div(class="col-md-8 col-xs-12 col-lg-8" id="presentation")
         script.
